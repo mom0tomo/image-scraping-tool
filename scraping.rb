@@ -7,7 +7,7 @@ Dotenv.load
 file_count = ''
 
 # scrape images
-for number in 1...50 do
+for number in 1...100 do
   file_name = number.to_s + '.png'
   dir_name = ENV["DIR_NAME"]
   file_count = number.to_s
